@@ -545,6 +545,145 @@ export const posts: Post[] = [
 <p style="text-align:right;margin-top:2.5rem;padding-top:1rem;border-top:1px solid #e5e7eb;"><a href="#main-content" style="font-size:0.8rem;color:#9ca3af;text-decoration:none;font-weight:600;">&#8593; Back to top</a></p>
 `,
   },
+  {
+    slug: 'transitional-care-services',
+    title: 'Transitional Care Services: What They Include, Who Pays, and What to Expect',
+    excerpt:
+      'Transitional care bridges hospital discharge and home recovery. Medicare covers it. Services explained, how long it lasts, and how to choose a program.',
+    categoryId: 'maintenance-tips',
+    authorId: 'mike-callahan',
+    date: '2026-05-06',
+    readTime: 9,
+    featured: false,
+    image: {
+      src: '/images/pexels-6129208.webp',
+      alt: 'Nurse assisting a patient in a hospital bed — transitional care services step in where hospital care ends',
+      width: 940,
+      height: 627,
+      photographer: 'RDNE Stock project',
+      photographerUrl: 'https://www.pexels.com/@rdne',
+      pexelsUrl: 'https://www.pexels.com/photo/6129208/',
+    },
+    tags: [
+      'transitional care services',
+      'what is transitional care',
+      'transitional care unit',
+      'Medicare transitional care',
+      'transitional care management',
+      'TCU vs skilled nursing facility',
+    ],
+    toc: [
+      { id: 'what-it-includes', title: 'What Transitional Care Includes', level: 2 },
+      { id: 'who-it-is-for', title: 'Who Needs Transitional Care', level: 2 },
+      { id: 'care-settings', title: 'TCU vs. Skilled Nursing vs. Home Care', level: 2 },
+      { id: 'medicare-coverage', title: 'What Medicare Covers', level: 2 },
+      { id: 'care-manager', title: 'The Transitional Care Manager', level: 2 },
+      { id: 'choosing-a-program', title: 'What to Ask Before Choosing', level: 2 },
+    ],
+    faq: [
+      {
+        question: 'What are transitional care services?',
+        answer:
+          'Transitional care services are the structured medical programs that bridge hospital discharge and independent home recovery. They include medication reconciliation, skilled nursing, follow-up physician appointments, physical and occupational therapy, and a care coordinator who manages the clinical handoff between the hospital and the next care setting. Services run 7–30 days depending on medical complexity.',
+      },
+      {
+        question: 'What does transitional care include?',
+        answer:
+          'Standard transitional care includes: medication reconciliation by a pharmacist or clinician, a required follow-up visit with a primary care physician within 7–14 days, skilled nursing for wound care or IV antibiotic administration, physical or occupational therapy, and a dedicated care coordinator. Medicare defines these services under Transitional Care Management billing codes 99495 and 99496.',
+      },
+      {
+        question: 'How long does transitional care last?',
+        answer:
+          'Transitional care programs typically run 7–30 days. Stays in a transitional care unit (TCU) average 7–21 days. Home-based transitional care continues for 30 days following hospital discharge, as defined by Medicare\'s TCM billing framework. Duration depends on the patient\'s diagnosis, recovery trajectory, and available home support.',
+      },
+      {
+        question: 'Does Medicare cover transitional care services?',
+        answer:
+          'Yes. Medicare Part A covers TCU and skilled nursing facility stays following a qualifying inpatient hospitalization of at least three consecutive days. Coverage is 100% for days 1–20, with a daily copay of $209.50 for days 21–100. Medicare also reimburses Transitional Care Management services (the physician coordination component) under CPT codes 99495 and 99496.',
+      },
+      {
+        question: 'What is the difference between transitional care and skilled nursing?',
+        answer:
+          'A transitional care unit (TCU) is specifically designed for short-term post-acute recovery with the explicit goal of returning the patient home — typically 7–21 days with higher staff-to-patient ratios. A skilled nursing facility (SNF) provides a broader range of long-term and short-term care and may serve patients who are not expected to return home. Both are covered by Medicare Part A under the same qualification framework.',
+      },
+      {
+        question: 'What conditions require transitional care?',
+        answer:
+          'Common conditions that lead to transitional care placement include hip or knee replacement, cardiac events (heart attack, CHF exacerbation), stroke or TIA, serious post-surgical recovery, respiratory failure, and infections requiring IV antibiotics after hospital discharge. The determining factor is whether the patient needs supervised medical or rehabilitative care that cannot safely be delivered at home without clinical support.',
+      },
+      {
+        question: 'What does a transitional care manager do?',
+        answer:
+          'A transitional care manager coordinates the clinical handoff between the hospital and the next care setting. Their responsibilities include ensuring the discharge summary reaches all treating providers, confirming that prescriptions are filled before discharge, scheduling and confirming follow-up appointments, and serving as the patient\'s single point of contact for clinical problems during the transition period. Research from AHRQ shows structured transitional care programs reduce 30-day readmission rates by 20–50%.',
+      },
+    ],
+    content: `
+<p>One in five Medicare patients is readmitted to the hospital within 30 days of discharge. That number is not driven by unusually complex conditions — it describes the window between hospital discharge and stable home recovery, when medical responsibility ends on paper before it ends in practice.</p>
+
+<p>Transitional care services fill that window. They are the structured bridge between hospital care and independent living: medication reconciliation, skilled nursing, follow-up physician appointments, physical or occupational therapy, and a care coordinator who manages the clinical handoff between settings. Medicare Part A covers transitional care unit (TCU) stays following a qualifying three-day inpatient hospitalization. Duration runs 7–30 days depending on the patient's condition. The goal is preventing the readmission, not just completing the discharge paperwork.</p>
+
+<img src="/images/pexels-6129208.webp" alt="Nurse assisting a patient in a hospital bed with medical equipment — the clinical setting transitional care services step into at discharge" width="940" height="627" loading="lazy" style="width:100%;height:auto;border-radius:8px;margin:1.5rem 0 0.25rem" />
+<p style="font-size:0.8rem;color:#6B7280;text-align:center;margin-bottom:1.5rem">Photo by <a href="https://www.pexels.com/@rdne" style="color:#CC0000">RDNE Stock project</a> via Pexels</p>
+
+<h2 id="what-it-includes">What Transitional Care Services Include</h2>
+<p>Transitional care is a clinical program, not a loose collection of checkups. The core services are defined by Medicare's Transitional Care Management (TCM) framework and include:</p>
+<ul>
+  <li><strong>Medication reconciliation</strong> — A pharmacist or clinician reviews every prescription the patient was taking before hospitalization against every new prescription from the hospital. Duplications, contraindications, and omissions are where many preventable complications originate. The hospital starts a new anticoagulant; the cardiologist already has one on the regimen; nobody compared the two lists. Reconciliation is the safeguard.</li>
+  <li><strong>Follow-up physician visit</strong> — Medicare's TCM codes (99495 for moderate complexity within 14 days, 99496 for high complexity within 7 days) require a face-to-face appointment with a primary care physician or specialist. This is the clinical cornerstone of the transition.</li>
+  <li><strong>Skilled nursing</strong> — Wound care, IV antibiotic administration, catheter management, vital sign monitoring, and medically directed nursing tasks performed at a TCU or in the patient's home by a licensed RN.</li>
+  <li><strong>Physical, occupational, and speech therapy</strong> — Rehabilitation for patients recovering from stroke, joint replacement, cardiac surgery, or significant deconditioning. TCUs typically deliver 5–7 therapy sessions per week; home-based programs run 2–3 visits weekly.</li>
+  <li><strong>Care coordination</strong> — A designated coordinator manages documentation between the hospital, the transitional care program, and the patient's regular providers. Follow-up appointments are confirmed before discharge. The discharge summary reaches every physician who needs it. The patient has one number to call with problems.</li>
+  <li><strong>24/7 clinical access</strong> — Most TCU programs include around-the-clock nurse access. Home-based programs vary significantly on this — confirm what after-hours support looks like before choosing one.</li>
+</ul>
+
+<img src="/images/pexels-6111586.webp" alt="Physical therapist working with patient on rehabilitation exercises — physical therapy is a core transitional care service" width="940" height="621" loading="lazy" style="width:100%;height:auto;border-radius:8px;margin:1.5rem 0 0.25rem" />
+<p style="font-size:0.8rem;color:#6B7280;text-align:center;margin-bottom:1.5rem">Photo by <a href="https://www.pexels.com/@kampus" style="color:#CC0000">Kampus Production</a> via Pexels</p>
+
+<h2 id="who-it-is-for">Who Needs Transitional Care</h2>
+<p>The most common patients entering transitional care programs are recovering from: cardiac events (heart attack, CHF exacerbation), hip or knee replacement, stroke or TIA, major orthopedic surgery, serious infections requiring IV antibiotics post-discharge, and respiratory failure.</p>
+<p>The clinical trigger is medical complexity combined with a gap in available home support. A 67-year-old recovering from hip replacement who lives alone with no nearby family is the textbook transitional care candidate. A 67-year-old with the same surgery, a capable family caregiver at home, no significant comorbidities, and a first-floor bedroom is likely able to transition directly home with home health visits.</p>
+<p>Most families don't know transitional care is an option until it's mentioned at hospital discharge — which is the wrong time to learn it. If you're navigating a hospitalization for a family member, ask the discharge planner during the stay whether they qualify for a transitional care program. For more on what home-based non-clinical support looks like during and after transitional care, the guide to <a href="/blog/non-medical-home-care-services/" style="color:#CC0000">non-medical home care services</a> covers what home aides can and cannot provide.</p>
+
+<img src="/images/pexels-7551684.webp" alt="Adult daughter caring for elderly father at home — transitional care bridges facility care and home recovery" width="940" height="627" loading="lazy" style="width:100%;height:auto;border-radius:8px;margin:1.5rem 0 0.25rem" />
+<p style="font-size:0.8rem;color:#6B7280;text-align:center;margin-bottom:1.5rem">Photo by <a href="https://www.pexels.com/@kampus" style="color:#CC0000">Kampus Production</a> via Pexels</p>
+
+<h2 id="care-settings">Transitional Care Unit vs. Skilled Nursing vs. Home-Based Care</h2>
+<p>These three settings are frequently confused at discharge, and the differences affect both clinical outcomes and out-of-pocket costs:</p>
+<p><strong>Transitional care unit (TCU):</strong> A short-term facility or dedicated hospital wing providing post-acute medical care. Stays average 7–21 days. Staff-to-patient ratios are higher than standard SNFs. The explicit goal is recovery and return home, not long-term placement. Some TCUs are embedded in hospitals; others operate as standalone facilities.</p>
+<p><strong>Skilled nursing facility (SNF):</strong> Medicare Part A covers SNF stays for up to 100 days following a qualifying hospitalization of at least three consecutive inpatient days. Coverage is 100% for days 1–20. Days 21–100 carry a daily copay of $209.50 in 2025. Day 101 and beyond: no Part A coverage. SNF quality ranges widely — the <a href="https://www.medicare.gov/care-compare/" target="_blank" rel="noopener noreferrer" style="color:#CC0000">Medicare Care Compare tool</a> provides star ratings and inspection records for every certified facility in the country.</p>
+<p><strong>Home-based transitional care:</strong> A licensed nurse or therapist visits the patient at home, typically 2–5 times per week. Medicare Part A and Part B cover home health under specific medical necessity criteria. Less resource-intensive than a TCU and appropriate when the patient can recover safely at home with adequate support. Not the right choice when the patient needs daily skilled nursing or intensive therapy.</p>
+<p>The discharge planner's recommendation is a starting point, not a final ruling. Families can request alternatives and ask about availability and wait times before the patient leaves the hospital.</p>
+
+<h2 id="medicare-coverage">What Medicare Covers</h2>
+<p>Medicare Part A covers TCU and skilled nursing stays under the same framework: a qualifying hospitalization of at least three consecutive inpatient days, admission to a Medicare-certified facility within 30 days of discharge, and physician certification that skilled care is medically necessary.</p>
+<p>Part A covers 100% of approved costs for days 1–20. Days 21–100: a $209.50 daily copay. After day 100: no Part A coverage. Medigap supplemental policies typically cover the skilled nursing coinsurance. Medicare Advantage plans vary by insurer — confirm TCU and SNF coverage terms directly with the plan before discharge.</p>
+<p>Medicare also reimburses the physician-led coordination component of transitional care through CPT codes 99495 and 99496, including the required follow-up visit and ongoing care team contact during the 30 days after discharge. For current coverage amounts and qualifying criteria, <a href="https://www.medicare.gov/coverage/skilled-nursing-facility-snf-care" target="_blank" rel="noopener noreferrer" style="color:#CC0000">Medicare.gov's skilled nursing facility page</a> is updated annually and authoritative.</p>
+
+<img src="/images/pexels-8527647.webp" alt="Caregiver sitting with senior patient reviewing medications — medication reconciliation is a cornerstone of transitional care" width="940" height="627" loading="lazy" style="width:100%;height:auto;border-radius:8px;margin:1.5rem 0 0.25rem" />
+<p style="font-size:0.8rem;color:#6B7280;text-align:center;margin-bottom:1.5rem">Photo by <a href="https://www.pexels.com/@ron-lach" style="color:#CC0000">Ron Lach</a> via Pexels</p>
+
+<h2 id="care-manager">The Transitional Care Manager</h2>
+<p>The transitional care manager is the role most patients don't know exists until something goes wrong without one. Their job: make sure the discharge summary reaches the primary care physician, prescriptions are filled before the patient leaves, follow-up appointments are scheduled and confirmed, and the patient has one direct phone number for problems between appointments.</p>
+<p>In practice, effective care managers also identify what are called social determinants of health — transportation gaps, inadequate home conditions, inability to afford medications — that predict readmission as reliably as clinical factors. Research published by the <a href="https://www.ahrq.gov/patient-safety/reports/advances/vol3/transitional.html" target="_blank" rel="noopener noreferrer" style="color:#CC0000">Agency for Healthcare Research and Quality (AHRQ)</a> found that structured transitional care programs reduce 30-day readmission rates by 20–50% compared to standard discharge processes.</p>
+<p>A program that assigns a named, dedicated care manager is providing materially better care than one that distributes coordination responsibility across nursing staff already managing full patient loads. Ask whether a specific person is assigned to the patient before discharge, and get their direct contact information.</p>
+
+<h2 id="choosing-a-program">What to Ask Before Choosing a Program</h2>
+<p>Before committing to a facility or program, ask these directly:</p>
+<ul>
+  <li>Is there a dedicated transitional care manager assigned to this patient, and how do I reach them directly?</li>
+  <li>What is the staff-to-patient ratio in this unit?</li>
+  <li>How does medication reconciliation work here — pharmacist review or nursing only?</li>
+  <li>What after-hours clinical support does the program provide?</li>
+  <li>What is the average length of stay for patients with this diagnosis?</li>
+  <li>How does the program communicate with the patient's existing care team and physicians?</li>
+  <li>What are the specific clinical criteria for discharge — what does "ready to go home" mean, measured how?</li>
+</ul>
+<p>The last question separates programs focused on recovery from those focused on bed turnover. A program that answers with measurable benchmarks — ambulation distance, wound healing stage, medication adherence verification — is worth the conversation. One that answers "when the doctor says so" is giving you a non-answer, and that is meaningful information about how the program operates.</p>
+<p>For questions about navigating specific care situations, reach us on the <a href="/contact" style="color:#CC0000">contact page</a>. Additional guides on in-home and post-acute care are in the <a href="/blog/" style="color:#CC0000">AutoCare America care guides</a>.</p>
+
+<p style="text-align:right;margin-top:2.5rem;padding-top:1rem;border-top:1px solid #e5e7eb;"><a href="#main-content" style="font-size:0.8rem;color:#9ca3af;text-decoration:none;font-weight:600;">&#8593; Back to top</a></p>
+`,
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
